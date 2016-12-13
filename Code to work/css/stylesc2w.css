@@ -97,9 +97,7 @@ header .navbar-default .navbar-nav .active a:hover{
   color: #fff;
 }
 
-.navbar-default .navbar-collapse {
-    border-color: transparent;
-}
+
 
 
 /* banner image */
@@ -137,58 +135,6 @@ header .navbar-default .navbar-nav .active a:hover{
     margin: 20px 0px 150px;
     display: block;
 }
-
-@media (max-width: 1199px){
-    .top-header-section .bg-image {
-        height: 600px;
-    }
-}
-
-@media (max-width: 991px){
-    .top-header-section .bg-image {
-        height: 550px;
-    }
-}
-
-
-@media (max-width: 767px) {
-    top-header-section .bg-image {
-    min-height: 100px;
-    width: 100%;
-    position: absolute;
-    z-index: 10;
-    height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(../images/homepage-banner-image.jpg?);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
-}
- 
- @media (max-width: 480px){
-        .top-header-section .bg-image {
-            height: 420px;
-    }
-}
-
-.top-header-section .bg-image {
-    min-height: 100px;
-    width: 100%;
-    position: absolute;
-    z-index: 10;
-    height: 600px;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(../images/homepage-banner-image.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
 .top-header-section .top-header-section-copy h1, .top-header-section .top-header-section-copy h2 {
     width: 800px;
     margin: 0 auto;
@@ -201,58 +147,6 @@ header .navbar-default .navbar-nav .active a:hover{
     text-align: center;
     padding: 0px 20px;
 }
-
-   
-
-@media (max-width: 1199px){
-    .top-header-section .top-header-section-copy h1 {
-        font-size: 42px;
-    }
-    
-}
-
-@media (max-width: 1199px){
-    .top-header-section .top-header-section-copy h2 {
-        font-size: 18px;
-        max-width: 700px;
-    }
-    
-}
-
-@media (max-width: 991px){
-    .top-header-section .top-header-section-copy h1,
-    .top-header-section .top-header-section-copy h2 {
-        max-width: 700px;
-    }
-}
-
-@media (max-width: 767px){
-    .top-header-section .top-header-section-copy h1,
-    .top-header-section .top-header-section-copy h2 {
-        max-width: 550px;
-    }
-}
-
-@media (max-width: 767px){
-      .top-header-section .top-header-section-copy h1 {
-        font-size: 30px;
-        padding: 0px 18px 0px;
-    }
-}
-
-@media (max-width: 480px){
-    .top-header-section .top-header-section-copy h1 {
-        max-width: 478px;
-    }
-}
-
-@media (max-width: 480px){
-    .top-header-section-copy{
-        margin-top: 30px;
-    }
-}
-
-
 
 .top-header-section .top-header-section-copy h2 {
     display: block;
@@ -269,41 +163,6 @@ header .navbar-default .navbar-nav .active a:hover{
     margin: 0px 30px 0px;
     width: 350px;
     
-}
-
-@media (max-width: 991px){
-    .top-header-section .value-prop {
-        padding: 15px;
-        margin: 0;
-    }
-}
-
-@media (max-width: 480px){
-    .top-header-section .value-prop h2 {
-            display: none;  
-  }
-} 
-    
-
-
-@media (max-width: 991px){
-    .top-header-section .value-prop .c2w-tour, .top-header-section .value-prop .choose-myself {
-        display: block; 
-        font-size: 13px;
-        margin: 0px auto 20px;
-        width: 400px;
-}
-    
-} 
-
-@media (max-width: 480px){
-    .top-header-section .value-prop .c2w-tour, .top-header-section .value-prop .choose-myself { 
-        font-size: 10px;
-        margin: 0px 20px 20px;
-        width: auto;
-        padding: 12px 10px;
-    
-  }
 }
 
 .c2w-blue-round-button {

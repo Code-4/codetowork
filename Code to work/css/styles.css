@@ -97,69 +97,6 @@ header .navbar-default .navbar-nav .active a:hover{
     margin-top: 160px;
 }
 
-.sub-heading h1,h2 {
-    font-size: 55px;
-    font-weight: 600;
-    font-family: "Open Sans",sans-serif;
-}
-
-@media (max-width: 1199px){
-    .top-section .bg-image {
-        height: 420px;
-        
-    }
-}
-
-@media (max-width: 991px){
-    .top-section .bg-image{
-        height: 400px;
-    }
-}
-
-@media (max-width: 480px){
-    .top-section .bg-image{
-        height: 340px
-    }
-}
-
-@media (max-width: 1199px){
-    .top-section .sub-heading h1, .top-section .sub-heading h2{
-        font-size: 42px;
-    }
-}
-
-@media (max-width: 991px){
-    .top-section .sub-heading h1, .top-section .sub-heading h2{
-        max-width: auto;
-    }
-} 
-
-@media (max-width: 767px){
-    .top-section .sub-heading h1, .top-section .sub-heading h2{
-        font-size: 32px;
-    }
-}
-
-
-@media (max-width: 480px){
-    .top-section .sub-heading h1, .top-section .sub-heading h2{
-        font-size: 26px;
-
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .my-category-white {
     background: #fff;
@@ -241,12 +178,6 @@ header .navbar-default .navbar-nav .active a:hover{
 }
 .interns img{
     width: 100%;
-   
-}
-
-.interns {
-    margin: 0 auto;
-
 }
 
 blockquote {
@@ -287,7 +218,7 @@ blockquote .citation::before {
 
 blockquote .citation {
     color: #8e939a;
-    margin-top: 12px;
+    margin-top: 15px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
